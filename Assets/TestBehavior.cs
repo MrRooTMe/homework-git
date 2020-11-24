@@ -2,19 +2,28 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class NewBehaviourScript : MonoBehaviour
+public class TestBehavior : MonoBehaviour
 {
     // Start is called before the first frame update
     void Start()
     {
-        GameObject myGameObject = new GameObject("Test Object"); // Make a new GO.
-        Rigidbody gameObjectsRigidBody = myGameObject.AddComponent<Rigidbody>(); // Add the rigidbody.
-        gameObjectsRigidBody.mass = 5; // Set the GO's mass to 5 via the Rigidbody.  
+
     }
 
     // Update is called once per frame
     void Update()
     {
-        
+        bool movingToTarget = false;
+
+        if (Input.GetKeyDown(KeyCode.W))
+        {
+            movingToTarget = true;
+            // OR, if you want to toggle the movement
+            // movingToTarget = !movingToTarget ;
+        }
+        if(movingToTarget)
+        {
+            transform.position += Vector3.forward * Time.deltaTime;
+        }
     }
 }

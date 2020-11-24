@@ -1,0 +1,21 @@
+﻿<Properties StartupConfiguration="{71657D3D-9148-35AE-89AA-8483B87A7066}|">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/TestBehavior.cs">
+    <Files>
+      <File FileName="Assets/TestBehavior.cs" Line="25" Column="10" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="homework-git" expanded="True" selected="True" />
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="8fea8ff3-4e7c-4228-b86b-8febc5b89d1a" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
